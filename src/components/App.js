@@ -7,10 +7,10 @@ import Cart from '../components/Cart'
 import NavMenu from '../components/NavMenu'
 import Footer from './Footer'
 
-
 function App() {
   return (
     <div className="App">
+      
       <Router>
         <Navbar />
         <NavMenu />
@@ -22,6 +22,8 @@ function App() {
           <Route path="/">
             <HomePage />
           </Route>
+          
+
         </Switch>
         <Footer />
       </Router>
